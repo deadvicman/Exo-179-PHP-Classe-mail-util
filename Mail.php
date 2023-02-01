@@ -4,10 +4,10 @@ class Email {
     private $body;
     private $recipient;
 
-    public function __construct($subject, $body, $recipients) {
+    public function __construct($subject, $body, $recipient) {
         $this->subject = $subject;
         $this->body = $body;
-        $this->recipient = $recipients;
+        $this->recipient = $recipient;
     }
 
     public function send() {
